@@ -1,0 +1,100 @@
+.hero {
+	background-image:url(img/bg.png);
+	color: white;
+	height: 950px;
+}
+
+.img-hero {
+	margin-top: 50px;
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.value-prop {
+	font-family: "Oswald";
+	font-size: 3em;
+}
+.col-right {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.button-inscription {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size:27px;
+}
+.input-inscription{
+	height: 55px;
+	font-size: 20px;
+}
+div.btn-holder{
+    margin-top: 25px;
+}
+
+.button-inscription:hover {
+    background-color: white;
+    color:black;
+}
+.logo {
+	margin-top: 100px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 160px;
+	text-align: center;
+	color: #c0a756;
+}
+
+h2.like-logo {
+	font-family: "Great Vibes", serif;
+	font-size: 62px;
+	color: #c0a756;
+	margin-bottom: 30px;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.1st {
+	text-align: center;
+}
+
+p.text {
+	font-family: "Cabin", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #777777;
+	margin-bottom: 40px;
+	line-height: 32px;
+}
+p.center {
+	text-align: center;
+}
+
+.button-inscription {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid #c0a756;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size:27px;
+    color: #c0a756;
+}
+.button-inscription:hover {
+    color:black;
+    border: 2px solid black;
+}
+
+.form-center{
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
