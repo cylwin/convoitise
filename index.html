@@ -33,7 +33,7 @@
       </div>
       <div class="col-md-4 col-right">
         <span class="value-prop">
-          Accédez a des offres uniques, originales, experientielles et inoubliables.
+          Accédez à des offres uniques, originales, experientielles et inoubliables.
         </span>
         <div class="btn-holder">
           <form class="form-inline" action="//papasducode.us10.list-manage.com/subscribe/post?u=4b5c8ed8f5c8ef1e1aa366d44&amp;id=ae289655c5" 
@@ -43,7 +43,7 @@
               <label class="sr-only" for="exampleInputEmail3">Email address</label>
               <input type="email" name="EMAIL" class="form-control input-lg input-inscription" placeholder="Votre email">
             </div>
-            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg button-inscription" value="S'inscrire">
+            <input type="submit" name="subscribe" id="buttonTop" class="btn btn-lg button-inscription" value="S'inscrire">
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_4b5c8ed8f5c8ef1e1aa366d44_ae289655c5" tabindex="-1" value=""></div>
           </form>
         </div>
@@ -102,7 +102,7 @@
             <div class="form-group">
               <input type="email" class="form-control input-lg" name="EMAIL" placeholder="Votre email" id="mce-EMAIL">
             </div>
-            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg button-inscription or" value="S'inscrire">
+            <input type="submit" name="subscribe" id="buttonBottom" class="btn btn-lg button-inscription or" value="S'inscrire">
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_4b5c8ed8f5c8ef1e1aa366d44_ae289655c5" tabindex="-1" value=""></div>
             <div class="clear">
         </form>
@@ -133,6 +133,14 @@
 
   ga('create', 'UA-62904716-1', 'auto');
   ga('send', 'pageview');
+
+
+  $('#buttonTop').on('click', function() {
+    ga('send', 'event', 'button', 'click', 'top');
+  });
+  $('#buttonBottom').on('click', function() {
+    ga('send', 'event', 'button', 'click', 'bottom');
+  });
 
 </script>
   </body>
