@@ -12,6 +12,10 @@
 	font-family: "Oswald";
 	font-size: 3em;
 }
+.value-prop-small {
+	font-family: "Cabin";
+	font-size: 2em;
+}
 .col-right {
 	text-align: center;
 }
@@ -21,6 +25,7 @@
 @media (min-width: 530px) {
 	.img-hero {
 		width: 50%;
+		max-width: 600px;
 	}
 }
 @media (min-width: 992px) {
@@ -29,8 +34,7 @@
 	}
 	.img-hero {
 		margin-top: 50px;
-		width: 100%;
-
+		width:100%;
 	}
 }
 
